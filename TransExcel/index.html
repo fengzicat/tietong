@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<h2>系统txt转成协议文件</h2>
+		<form action="TxtToExcel.php"  method="post" enctype="multipart/form-data">			
+			<h5>上传系统下载txt文件，转成Excel格式（请妥善保管）：</h5>
+			<input type="file" name="file1" id="file1" /> 
+			<h5>上传系统下载txt文件，生成 协议Excel ：</h5>
+			<input type="file" name="file2" id="file2" /> 
+			<input type="submit" value="提交"  id="sub1"/>			
+		</form>
+		
+		<h2>银行提回文件转成 代收文件</h2>
+		<form action="TxtToExcel.php"  method="post" enctype="multipart/form-data">		
+			<h5>上传系统下载Excel文件：</h5>
+			<input type="file" name="file3" id="file3" /> <p/>
+			<h5>上传单位提回Excel，生成 代收Excel：</h5>
+			<input type="file" name="file4" id="file4" /> 
+			<input type="submit" value="提交"  id="sub2"/>			
+		</form>
+	</body>
+	
+	<script src="lib/jquery.js"></script>
+	<script>
+//	var txttoexcel = $("#file1")[0].files[0];
+	
+//  var txttoexcel = document.getElementById("txttoexcel").files[0]; // js 获取文件对象
+//  var formFile = new FormData();
+//  formFile.append("file1", fileObj1);//加入文件对象
+    
+//  $("#sub1").click(function(){    
+//  	alert('a');
+//  	$.ajax({
+//              url:"InputFile.php",
+//              type:"post",
+//              data:{txttoexcel:txttoexcel},
+//              success:function(data){
+//              	alert("success！！");
+////                  window.clearInterval(timer);
+//                  console.log("over..");
+//                  console.log(txttoexcel);
+//              },
+//              error:function(e){
+//                  alert("错误！！");
+////                  window.clearInterval(timer);
+//              }
+//          }); 
+//          
+//    });
+         
+    </script>
+</html>
+
